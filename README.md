@@ -48,3 +48,4 @@ KNN algoritması basit ama etkili. En yakın K komşuya bakıp, çoğunluğun s�
 - Metric - mesafeyi nasıl hesaplayacağım
 
 **Veri hazırlığı**: StandardScaler çok önemli. Train-test split ile modelin ezberleyip ezberlemediğini test ettim.
+
