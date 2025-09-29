@@ -25,13 +25,15 @@ K=3 ile başladım, **%95.9 doğruluk** aldım. 100 hastadan 96'sını doğru te
 
 **K değeri optimizasyonu**: K=1'den K=20'ye kadar test ettim. **K=9 en iyi performansı** verdi.
 
-<img width="621" height="468" alt="image" src="https://github.com/user-attachments/assets/cba76a63-f487-4bb5-b6c8-015b006f3a88" />
+<img width="621" height="468" alt="Ekran görüntüsü 2025-09-29 184645" src="https://github.com/user-attachments/assets/a9d78548-fec1-4710-adc0-c6a81698509f" />
+
 
 
 ### Fonksiyon Tahmini
 Distance weights daha düzgün sonuçlar verdi. Uniform weights sert tahminler yaparken, distance weights gerçek fonksiyona çok daha yakın sonuçlar üretti. Gürültülü verilerde bile KNN regresyonu iyi performans gösterdi.
 
-<img width="643" height="487" alt="Ekran görüntüsü 2025-09-29 184634" src="https://github.com/user-attachments/assets/61c3ba00-6509-406a-91f3-d4cb2030023e" />
+<img width="643" height="487" alt="Ekran görüntüsü 2025-09-29 184634" src="https://github.com/user-attachments/assets/42449ee9-1ede-4708-928d-7eb7e8572bf7" />
+
 
 
 ## Kısacası
@@ -48,4 +50,5 @@ KNN algoritması basit ama etkili. En yakın K komşuya bakıp, çoğunluğun s�
 - Metric - mesafeyi nasıl hesaplayacağım
 
 **Veri hazırlığı**: StandardScaler çok önemli. Train-test split ile modelin ezberleyip ezberlemediğini test ettim.
+
 
